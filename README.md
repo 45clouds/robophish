@@ -1,5 +1,5 @@
 
-# robophish v3.0
+# robophish v3.0 СКРИПТ НЕ РАБОТАЕТ! ОЖИДАЙТЕ НОВОЙ ВЕРСИИ.
 ## Author: github.com/thelinuxchoice
 ## Upgraded by github.com/gasayminajj
 ### Don't copy this code without give me the credits, nerd! 
