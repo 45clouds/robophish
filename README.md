@@ -1,11 +1,12 @@
 
 # robophish v4.0 Lite
 ## Author: github.com/thelinuxchoice
-## Upgraded by github.com/gasayminajj 
+## Upgraded by github.com/gasayminajj
 
-###Фишинговая утилита для вк
-###Покупка полной версии продукта обговаривается индивидульно.
-### Features:
+## Фишинговая утилита для вк
+## Покупка полной версии продукта обговаривается индивидульно.
+
+
 ### Port Forwarding using Ngrok
 
 ## Правовая оговорка(Legal disclaimer):
