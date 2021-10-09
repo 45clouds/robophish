@@ -153,36 +153,36 @@ kill_pid() {
 banner() {
 	cat <<- EOF
 
-                        $BLACK$WHITEBG   -:**++++**:- $BLACKBG 
-                   $BLACK$WHITEBG :=%=+:               -*=%+- $BLACKBG 
-              $BLACK$WHITEBG -=%*        =#########+         +=- $BLACKBG 
-           $BLACK$WHITEBG -%+           +###########*          :%- $BLACKBG
-         $BLACK$WHITEBG *%-             :###########*            *= $BLACKBG
-       $BLACK$WHITEBG -%-    -          -###########:          -  -%- $BLACKBG
-      $BLACK$WHITEBG -%   -#####%-       ###########-      *@#####- %- $BLACKBG
-      $BLACK$WHITEBG %-  -#########@*    ###########    =##########: %- $BLACKBG
-     $BLACK$WHITEBG *+  -##############%*##########@ %##############: @ $BLACKBG
-     $BLACK$WHITEBG %   @###########################################+ -% $BLACKBG
-    $BLACK$WHITEBG *+    :=##################@@@##################+    +* $BLACKBG
-    $BLACK$WHITEBG =-        :%###########%--%@****###########%-        % $BLACKBG
-    $BLACK$WHITEBG @             :%#######@@##%+*#-:######%:            +: $BLACKBG
-   $BLACK$WHITEBG -=                @####%**:---@=--####%               := $BLACKBG
-   $BLACK$WHITEBG :+           -+#########:==+:-:*-=########+-           % $BLACKBG
-   $BLACK$WHITEBG :+        +##############%:=---*##############*        % $BLACKBG
-   $BLACK$WHITEBG :+     %#########################################=     % $BLACKBG
-   $BLACK$WHITEBG -=    =###########################################+   := $BLACKBG
-    $BLACK$WHITEBG %     ############%-  ##########@  :############@    =: $BLACKBG
-    $BLACK$WHITEBG =:     @#######=-     ###########     :@#######%    := $BLACKBG
-    $BLACK$WHITEBG :=      :@#@*        -###########-        +##@:    *+ $BLACKBG $RED DISCLAIMER:
-     $BLACK$WHITEBG =-         :@@+     -###########-              -+%-$BLACKBG $RED Developers assume no liability and are not$BLACKBG
-     $BLACK$WHITEBG -%     -=: *##% -+* -###########-          *%=:$BLACKBG   $RED responsible for any misuse or damage   $BLACK
-      $BLACK$WHITEBG :=    @###########: @##########       -==- $BLACKBG    $RED caused by RoboPhish$BLACK
-       $BLACK$WHITEBG :=     -@#=++#*     -*++++++:     :%+ $BLACKBG     $MAGENTA RoboFish v.4.0 (lite)$BLACK
-        $BLACK$WHITEBG -%- @###########-             :%+ $BLACKBG     $GREEN Phishing Tool based on Zphisher.   $BLACK
-          $BLACK$WHITEBG ++-=: *##% -=*           :%+ $BLACKBG     $GREEN Coded by:  htr-tech$BLACK
-            $BLACK$WHITEBG =+  -%@+            *@* $BLACKBG    $GREEN upgraded by:  @gasayminajj$BLACK
-              $BLACK$WHITEBG :%*           *%=- $BLACKBG    $ORANGE For Pro Version contact @gasayminajj tg $BLACK
-                  $BLACK$WHITEBG *=%%%%=+:$BLACKBG        $RED For educational purposes only
+                        $BLACK$WHITEBG   -:**++++**:- $RESETBG 
+                   $BLACK$WHITEBG :=%=+:               -*=%+- $RESETBG 
+              $BLACK$WHITEBG -=%*        =#########+         +=- $RESETBG 
+           $BLACK$WHITEBG -%+           +###########*          :%- $RESETBG
+         $BLACK$WHITEBG *%-             :###########*            *= $RESETBG
+       $BLACK$WHITEBG -%-    -          -###########:          -  -%- $RESETBG
+      $BLACK$WHITEBG -%   -#####%-       ###########-      *@#####- %- $RESETBG
+      $BLACK$WHITEBG %-  -#########@*    ###########    =##########: %- $RESETBG
+     $BLACK$WHITEBG *+  -##############%*##########@ %##############: @ $RESETBG
+     $BLACK$WHITEBG %   @###########################################+ -% $RESETBG
+    $BLACK$WHITEBG *+    :=##################@@@##################+    +* $RESETBG
+    $BLACK$WHITEBG =-        :%###########%--%@****###########%-        % $RESETBG
+    $BLACK$WHITEBG @             :%#######@@##%+*#-:######%:            +: $RESETBG
+   $BLACK$WHITEBG -=                @####%**:---@=--####%               := $RESETBG
+   $BLACK$WHITEBG :+           -+#########:==+:-:*-=########+-           % $RESETBG
+   $BLACK$WHITEBG :+        +##############%:=---*##############*        % $RESETBG
+   $BLACK$WHITEBG :+     %#########################################=     % $RESETBG
+   $BLACK$WHITEBG -=    =###########################################+   := $RESETBG
+    $BLACK$WHITEBG %     ############%-  ##########@  :############@    =: $RESETBG
+    $BLACK$WHITEBG =:     @#######=-     ###########     :@#######%    := $RESETBG
+    $BLACK$WHITEBG :=      :@#@*        -###########-        +##@:    *+ $RESETBG $RED DISCLAIMER:
+     $BLACK$WHITEBG =-         :@@+     -###########-              -+%-$RESETBG $RED Developers assume no liability and are not$BLACKBG
+     $BLACK$WHITEBG -%     -=: *##% -+* -###########-          *%=:$RESETBG   $RED responsible for any misuse or damage   $BLACK
+      $BLACK$WHITEBG :=    @###########: @##########       -==- $RESETBG    $RED caused by RoboPhish$BLACK
+       $BLACK$WHITEBG :=     -@#=++#*     -*++++++:     :%+ $RESETBG     $MAGENTA RoboFish v.4.0 (lite)$BLACK
+        $BLACK$WHITEBG -%- @###########-             :%+ $RESETBG     $GREEN Phishing Tool based on Zphisher.   $BLACK
+          $BLACK$WHITEBG ++-=: *##% -=*           :%+ $RESETBG     $GREEN Coded by:  htr-tech$BLACK
+            $BLACK$WHITEBG =+  -%@+            *@* $RESETBG    $GREEN upgraded by:  @gasayminajj$BLACK
+              $BLACK$WHITEBG :%*           *%=- $RESETBG    $ORANGE For Pro Version contact @gasayminajj tg $BLACK
+                  $BLACK$WHITEBG *=%%%%=+:$RESETBG        $RED For educational purposes only
 	EOF
 }
 warningad() {
