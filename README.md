@@ -1,5 +1,5 @@
 
-# robophish v4.1 Lite
+# robophish v4.2 Lite
 ## Author: github.com/thelinuxchoice
 ## Upgraded by github.com/gasayminajj
 
